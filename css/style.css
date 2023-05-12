@@ -1,6 +1,4 @@
 *{
-    overflow-y:scroll;
-    scroll-behaviour: smooth;
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -19,6 +17,8 @@ html {
   }
 
   body{
+    overflow-y:scroll;
+    scroll-behaviour: smooth;
     font-family: montserrat;
   }
   nav{
