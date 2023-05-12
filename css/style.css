@@ -9,6 +9,8 @@
   /* scroll hide */ 
 
 html {
+  overflow-y:scroll;
+  scroll-behaviour: smooth;
   overflow: scroll;
   overflow-x: hidden;
   }
@@ -17,8 +19,6 @@ html {
   }
 
   body{
-    overflow-y:scroll;
-    scroll-behaviour: smooth;
     font-family: montserrat;
   }
   nav{
